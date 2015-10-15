@@ -1,1 +1,29 @@
-Test
+---
+layout: front
+---
+
+<div class="home">
+
+<!-- This is the default jekyll code from their theme for blog post list. Keep -->    
+    
+  <h1 class="page-heading">Recent blog posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts limit:2 %}
+      <li class="post-list-el">
+          <h2 class="post-link">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <span class="post-meta">{{ post.date | date: "%-d %B %Y" }}</span>
+          <p class="post-snip">{{ post.content | strip_html | truncatewords:30}}
+              <a class="read-more" href="{{ post.url }}">Read more</a></p>
+      </li>
+    {% endfor %}
+  </ul>
+<!-- comment out RSS for now
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+-->
+
+</div>

@@ -1,0 +1,9 @@
+# Site settings
+title: Leon Harrington
+description: > # this means to ignore newlines until "baseurl:"
+  Post-doctoral researcher at the Max Planck Institute for Biochemistry. Formerly University of Oxford. Interested in single-molecule detection and the biophysics and engineering of biological pattern formation.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter-username: 
+# Build settings
+markdown: kramdown

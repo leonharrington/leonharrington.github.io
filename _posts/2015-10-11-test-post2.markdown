@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Second test post for formatting"
+date:   2015-10-11 09:30:00
+categories: test
+---
+This is another post with some fine discombobulation to test the formatting of my recent posts section, and the formatting thereof. Blah and so forth and other words of no meaning are written to fill space and show that the formatting works as planned, where it is truncated to thirty words at present to avoid rambling crap all over the fucking place.
+
+Here is a second paragraph to test the layout further - in time I would like to be able to put pullout quotes into the left column somehow. Actually this might be very easy, if can use markdown to add a tag that uses negative margins to pull it into the left column...
+
+<aside>This is some text I want pulled out</aside>
+
+This text to the left coincides with this paragraph? I believe it will. If so, not too bad really... Let's see how it looks. Have to write more to provide enough text. Should use lorem ipsum really, much quicker!
+
+Let's look at at blockquote, and how we can format this by adding in the semantic tag for quotes:
+
+<blockquote>Lorem ipsum blah blah words and some other craps and relating those words to document structure. The integration of the elements for the distribution of the network block into CSS with the DNA nanotechnology</blockquote>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+<header class="front-header">
+
+  <div class="wrapper">
+      <div class="mast-wrap">
+      <div class="mast-contents">
+    <a class="front-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <hr class="front-mast">
+    <nav class="front-nav">
+        <ul>
+            <li><a class="mast-link" href="{{ site.baseurl }}/about/">About</a></li>
+            <li><a class="mast-link" href="{{ site.baseurl }}/research/">Research</a></li>
+            <li><a class="mast-link" href="{{ site.baseurl }}/publications/">Publications</a></li>
+            <li><a class="mast-link" href="{{ site.baseurl }}/blog/">Blog</a></li>
+        </ul>
+    </nav>
+          </div>
+          </div>
+      <p class="description">{{ site.description }}</p>
+  </div>
+
+</header>
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

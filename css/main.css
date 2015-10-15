@@ -1,0 +1,259 @@
+* {
+    -webkit-box-sizing: border-box;
+    /* -moz-box-sizing: border-box; */
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16pt;
+}
+
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    text-rendering: optimizeLegibility;
+}
+
+nav {
+    color: gray;
+    vertical-align: bottom;
+}
+
+header.post-header {
+    display: inline-block;
+    vertical-align: top;
+    /* float: left; */
+    width: 22%;
+    text-align: right;
+    /* margin-left: 2.5%; */
+    border-top: 2px solid black;
+    line-height: 0.9;
+    padding-top: 0.25em;
+}
+
+footer.site-footer {
+    max-width: 850px;
+    margin: 1em auto 0 auto;
+    padding: 0.5em 0 0.5em 0;
+}
+
+article.post-content {
+    display: inline-block;
+    width: 77%;
+    padding-left: 2%;
+    /* margin-left: 225px; */
+    text-align: justify;
+}
+    
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9375em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    margin: 1em 0 0.5em 0;
+}
+
+h1.page-heading {
+    display:inline-block;
+    vertical-align: top;
+    margin: 0;
+    width: 27%;
+}
+
+h1.post-title {
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.4;
+    margin: 0 0 0.5em 0;
+    hyphens:auto;
+    -moz-hyphens:auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+}
+
+p.description {
+    text-align: justify;
+    margin-top: 0;
+}
+
+p.post-snip {
+    text-align: justify;
+    margin-top: 0.5em;
+    font-size: 0.875em;
+    padding-bottom: 0.5em;
+}
+
+aside {
+    float:left;
+    margin-left: -33%;
+    width: 29%;
+    text-align: right;
+    color: gray;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+blockquote {
+    color: gray;
+    font-size: 0.875em;
+    margin: 0 2.5em;
+    text-align: justify;
+    hyphens:auto;
+    -moz-hyphens:auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a.mast-link {
+    display: block;
+}
+
+.post-link {
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color:crimson;
+}
+
+a.front-title {
+    display:block;
+    font-size: 2.25em;
+    /* text-transform:uppercase; */
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+a.front-title:hover {
+    text-decoration: none;
+}
+
+a.site-title {
+    font-variant: small-caps;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    /* display: inline-block; */
+}
+
+a.nav-link {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    display:inline-block;
+}
+
+a.read-more {
+    font-size: 0.875em;
+    text-transform: uppercase;
+}
+
+a.contact {
+    display: inline-block;
+}
+
+hr {
+    border: 0; height: 2px;
+    margin: 0;
+    background: black;
+}
+
+ul.post-list {
+    list-style: none outside none;
+    margin: 0 0 0 0;
+    padding: 0;
+    display:inline-block;
+    width: 72%;
+    
+}
+
+div.wrapper {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div.site-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+div.mast-wrap {
+    text-align: center;
+    padding-top: 1em;
+}
+div.mast-contents {
+    width: auto;
+    display: inline-block;
+}
+
+div.home {
+    padding-top: 1em;    
+}
+
+div.contact-bar {
+    color: gray;
+    text-align: right;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-top: 2px solid black;
+    font-size: 0.875em;
+}
+
+nav.front-nav {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.125em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding-bottom: 2em;
+}
+
+nav.front-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav.front-nav li {
+    display: inline-block;
+    padding:0 12px;
+}
+
+nav.front-nav {
+    text-decoration: none;
+}
+
+.post-meta {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 0.9375em;
+    margin: 0 0 0.5em 0;
+}
+
+.site-header {
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
