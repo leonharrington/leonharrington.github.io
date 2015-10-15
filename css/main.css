@@ -26,10 +26,8 @@ nav {
 header.post-header {
     display: inline-block;
     vertical-align: top;
-    /* float: left; */
     width: 22%;
     text-align: right;
-    /* margin-left: 2.5%; */
     border-top: 2px solid black;
     line-height: 0.9;
     padding-top: 0.25em;
@@ -45,7 +43,6 @@ article.post-content {
     display: inline-block;
     width: 77%;
     padding-left: 2%;
-    /* margin-left: 225px; */
     text-align: justify;
 }
     
@@ -67,6 +64,10 @@ h1.page-heading {
 
 h1.post-title {
     margin: 0;
+}
+
+h1.blog-title {
+    margin: 0 0 0.5em 24.6%;
 }
 
 h2 {
@@ -134,7 +135,8 @@ a.mast-link {
 
 a:hover {
     text-decoration: underline;
-    text-decoration-color:crimson;
+    text-decoration-color: crimson;
+    -webkit-text-decoration-color: crimson;
 }
 
 a.front-title {
@@ -172,12 +174,6 @@ a.contact {
     display: inline-block;
 }
 
-hr {
-    border: 0; height: 2px;
-    margin: 0;
-    background: black;
-}
-
 ul.post-list {
     list-style: none outside none;
     margin: 0 0 0 0;
@@ -185,6 +181,12 @@ ul.post-list {
     display:inline-block;
     width: 72%;
     
+}
+
+hr {
+    border: 0; height: 2px;
+    margin: 0;
+    background: black;
 }
 
 div.wrapper {
@@ -218,6 +220,24 @@ div.contact-bar {
     font-family: 'Source Sans Pro', sans-serif;
     border-top: 2px solid black;
     font-size: 0.875em;
+}
+
+div.list-head {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    text-align: right;
+    border-top: 2px solid black;
+    line-height: 0.9;
+    padding-top: 0.25em;
+    margin-top: 0.5em;
+}
+
+div.post-excerpt {
+    display: inline-block;
+    width: 77%;
+    padding-left: 2%;
+    text-align: justify;
 }
 
 nav.front-nav {

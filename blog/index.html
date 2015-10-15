@@ -1,3 +1,22 @@
 ---
 layout: default
 ---
+
+<h1 class="blog-title">Blog posts</h1>
+
+    {% for post in site.posts %}
+
+<div class="list-head">
+    <h2 class="post-link">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+    
+    <span class="post-meta">{{ post.date | date: "%-d %B %Y" }}</span>
+          
+          </div>
+<div class="post-excerpt">
+    <p class="post-snip">{{ post.excerpt | strip_html }}
+              <a class="read-more" href="{{ post.url }}">Read more</a></p>
+</div>
+
+    {% endfor %}
