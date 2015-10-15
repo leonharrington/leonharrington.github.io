@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Second test post for formatting"
+title:  "Second test post for formatting with a very long name too"
 date:   2015-10-11 09:30:00
 categories: test
 ---

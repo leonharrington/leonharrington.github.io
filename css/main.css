@@ -23,6 +23,20 @@ nav {
     vertical-align: bottom;
 }
 
+nav.blog-nav-prev, nav.blog-nav-next {
+    max-width: 45%;
+    line-height: 1;
+}
+
+nav.blog-nav-prev {
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+nav.blog-nav-next {
+    text-align: right;
+}
+
 header.post-header {
     display: inline-block;
     vertical-align: top;
@@ -62,7 +76,7 @@ h1.page-heading {
     width: 27%;
 }
 
-h1.post-title {
+h2.post-title {
     margin: 0;
 }
 
