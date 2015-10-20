@@ -15,3 +15,9 @@ This text to the left coincides with this paragraph? I believe it will. If so, n
 Let's look at at blockquote, and how we can format this by adding in the semantic tag for quotes:
 
 <blockquote>Lorem ipsum blah blah words and some other craps and relating those words to document structure. The integration of the elements for the distribution of the network block into CSS with the DNA nanotechnology</blockquote>
+
+The next bit is to add some images! I think this alignment is the best, but I'm undecided. Let's see.
+
+{% include figure.html img="images/color-pencils.jpg" title="This is the title for the test image" caption="This is a test caption for the test image to test formatting and placement" %}
+
+Well! This can always be changed later. The goal is to get the rough layout and framework sorted out first.
