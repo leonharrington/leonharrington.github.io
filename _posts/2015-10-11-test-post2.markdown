@@ -18,6 +18,6 @@ Let's look at at blockquote, and how we can format this by adding in the semanti
 
 The next bit is to add some images! I think this alignment is the best, but I'm undecided. Let's see.
 
-{% include figure.html img="images/color-pencils.jpg" title="This is the title for the test image" caption="This is a test caption for the test image to test formatting and placement" %}
+{% include figure.html img="color-pencils.jpg" title="This is the title for the test image" caption="This is a test caption for the test image to test formatting and placement" %}
 
 Well! This can always be changed later. The goal is to get the rough layout and framework sorted out first.

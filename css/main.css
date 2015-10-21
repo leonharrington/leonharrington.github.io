@@ -41,10 +41,10 @@ header.post-header {
     display: inline-block;
     vertical-align: top;
     width: 22%;
-    text-align: right;
     border-top: 2px solid black;
     line-height: 1.0;
     padding-top: 0.25em;
+    text-align: right;
 }
 
 footer.site-footer {
@@ -67,7 +67,15 @@ figure {
 
 img {
     display: inline-block;
+}
+
+img.blog {
     width: 75%;
+    height: auto;  
+}
+
+img.about {
+    width: 100%;
     height: auto;
 }
 
@@ -104,24 +112,25 @@ h1.page-heading {
     width: 27%;
 }
 
-h2.post-title {
-    margin: 0;
-}
-
-h1.blog-title {
-    margin: 0 0 0 24.6%;
+h1.page-title {
+    margin: 0 0 0.5em 24.6%;
 }
 
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1em;
     font-weight: 600;
-    margin-top: 0;
+    margin: 0;
 }
+
+/* h2.post-title {
+    margin: 0;
+} */
 
 p {
     line-height: 1.4;
     margin: 0 0 0.5em 0;
+    text-align: justify;
     hyphens:auto;
     -moz-hyphens:auto;
     -webkit-hyphens: auto;
@@ -130,13 +139,11 @@ p {
 }
 
 p.description {
-    text-align: justify;
     margin-top: 0;
 }
 
 p.post-snip {
     text-align: justify;
-    margin-top: 0.5em;
     font-size: 0.875em;
     padding-bottom: 0.5em;
 }
@@ -177,6 +184,7 @@ a.mast-link {
 
 .post-link {
     margin: 0;
+    line-height: 1.0;
 }
 
 a:hover {
@@ -234,7 +242,18 @@ ul.post-list {
     padding: 0;
     display:inline-block;
     width: 72%;
-    
+}
+
+ul.about-list {
+    list-style: none outside none;
+    margin: 0 0 0.5em 0.5em;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+}
+
+ul.about-list a {
+    color: gray;
 }
 
 hr {
@@ -282,13 +301,11 @@ div.list-head {
     width: 22%;
     text-align: right;
     border-top: 2px solid black;
-    line-height: 1.0;
-    padding-top: 0.25em;
-    margin-top: 0.5em;
 }
 
 div.post-excerpt {
     display: inline-block;
+    vertical-align: top;
     width: 77%;
     padding-left: 2%;
     text-align: justify;
@@ -305,13 +322,26 @@ div.blog-nav {
     margin: 1em 0 -1em 0;
 }
 
+div.about-side {
+    width: 22%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.about-main {
+    width: 76%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 1.6%;
+}
+
 nav.front-nav {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.125em;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
 }
 
 nav.front-nav ul {
@@ -336,6 +366,7 @@ nav.front-nav {
     font-weight: 400;
     font-size: 0.9375em;
     margin: 0 0 0.5em 0;
+    text-align: right;
 }
 
 .site-header {
