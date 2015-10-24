@@ -83,6 +83,12 @@ img.rp-img {
     width: 100%;
 }
 
+img.pubs {
+    width: 22%;
+    vertical-align: top;
+    margin-right: 1em;
+}
+
 figcaption {
     display: inline-block;
     vertical-align: top;
@@ -375,16 +381,6 @@ div.rp-box:hover {
     max-height: 100%;
 }
 
-div.rp-box:before {
-    content:' ';
-    width:100%;
-    height:100%;    
-    position:absolute;
-    left:0;
-    top:0;
-    background:linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 3em, rgba(0, 0, 0, 0.2));
-}
-
 div.rp-box:after {
     content: '[+]';
     position: absolute;
@@ -399,6 +395,10 @@ div.rp-box:hover:before {
 
 div.rp-box:hover:after {
     content: '[-]';
+}
+
+div.pub-wrap {
+    margin-bottom: 1em;
 }
 
 nav.front-nav {
