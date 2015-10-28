@@ -8,3 +8,6 @@ twitter-username: drlharrington
 # Build settings
 markdown: kramdown
 # email:
+
+gems:
+    - jekyll-sitemap
