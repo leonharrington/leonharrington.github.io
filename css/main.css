@@ -84,9 +84,8 @@ img.rp-img {
 }
 
 img.pubs {
-    width: 22%;
-    vertical-align: top;
-    margin-right: 1em;
+    width: 100%;
+    margin: 0 0 1em 0;
 }
 
 figcaption {
@@ -135,6 +134,11 @@ h2 {
     font-size: 1em;
     font-weight: 600;
     margin: 0;
+}
+
+h2.bib {
+    text-align: right;
+    color: gray;
 }
 
 p {
@@ -260,6 +264,10 @@ a.blog-nav {
     font-weight: 600;
 }
 
+a.abs_tog {
+    
+}
+
 ul.post-list {
     list-style: none outside none;
     margin: 0 0 0 0;
@@ -278,6 +286,11 @@ ul.about-list {
 
 ul.about-list a {
     color: gray;
+}
+
+ul.bib {
+    list-style: none outside none;
+    font-size: 0.875em;
 }
 
 hr {
@@ -397,8 +410,19 @@ div.rp-box:hover:after {
     content: '[-]';
 }
 
-div.pub-wrap {
-    margin-bottom: 1em;
+div.covers {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+}
+
+div.biblio {
+    display: inline-block;
+    width: 77%;
+}
+
+div.abstract {
+    display: none;
 }
 
 nav.front-nav {
