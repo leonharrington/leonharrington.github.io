@@ -139,6 +139,7 @@ h2 {
 h2.bib {
     text-align: right;
     color: gray;
+    margin: 0 0 1em 0;
 }
 
 p {
@@ -156,7 +157,7 @@ p.smaller {
     font-size: 0.875em;
 }
 
-p.bio {
+p.small-left {
     text-align: left;
     hyphens: none;
     -moz-hyphens:none;
@@ -164,6 +165,17 @@ p.bio {
     -ms-hyphens: none;
     -o-hyphens: none;
     font-size: 0.875em;
+}
+
+p.cite {
+    text-align: left;
+    hyphens: none;
+    -moz-hyphens:none;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    -o-hyphens: none;
+    font-size: 0.875em;
+    margin: 0;
 }
 
 p.description {
@@ -286,11 +298,6 @@ ul.about-list {
 
 ul.about-list a {
     color: gray;
-}
-
-ul.bib {
-    list-style: none outside none;
-    font-size: 0.875em;
 }
 
 hr {
@@ -419,6 +426,7 @@ div.covers {
 div.biblio {
     display: inline-block;
     width: 77%;
+    padding-left: 2%;
 }
 
 div.abstract {
