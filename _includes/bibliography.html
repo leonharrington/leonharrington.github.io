@@ -1,0 +1,25 @@
+{% for key in site.data.publications.entries %}
+    {% for field in key %}
+    
+    {% if field.doi %}
+    <p class="cite">
+    {% for name in field.author %}
+        {{ name.last }} {{ name.first | split: '' | first }}{{ name.middle }}, 
+    {% endfor %}
+        ({{ field.year }}) {{ field.title }}. <em>{{ field.journal }}</em> {{ field.volume }}({{ field.number }}):{{ field.pages | split: '-' | first }}
+        <h2 class="bib"><a href="http://dx.doi.org/{{ field.doi }}" title="View on publisher's site" target="_blank">doi:{{ field.doi }}</a>
+            <!--    /
+            <a href="" class="abs_tog">Show abstract</a>
+        --> 
+            
+        </h2>
+        </p>
+    <div class="abstract">
+        <p class="smaller">{{ field.abstract }}</p>
+    </div>
+    {% endif %}
+    
+    {% endfor %}
+        
+        
+    {% endfor %}

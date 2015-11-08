@@ -1,0 +1,174 @@
+entries:
+    bayley2009aa:
+        abstract: An improved method for the semisynthesis of a potassium channel
+            involving native chemical ligation allows the introduction of short sequences
+            containing non-canonical amino acids at any position within the polypeptide
+            chain. The work enhances the technology available for a range of fundamental
+            investigations of membrane proteins and for applications of membrane channels
+            and pores in biotechnology.
+        author:
+        -   first: Hagan
+            last: Bayley
+        -   first: Stephen
+            last: Cheley
+        -   first: Leon
+            last: Harrington
+        -   first: Ruhma
+            last: Syeda
+        bdsk-url-1: http://dx.doi.org/10.1021/cb900304p
+        date-added: 2015-10-24 17:13:22 +0000
+        date-modified: 2015-11-01 21:21:51 +0000
+        doi: 10.1021/cb900304p
+        journal: ACS Chem Biol
+        journal-full: ACS chemical biology
+        mesh: Amino Acid Sequence; Amino Acids; Animals; Bacterial Proteins; Models,
+            Molecular; Potassium Channels; Protein Conformation; Rats
+        month: Dec
+        number: '12'
+        pages: 983-5
+        pmid: '20017575'
+        pst: ppublish
+        title: Wrestling with native chemical ligation
+        type: article
+        volume: '4'
+        year: '2009'
+    harrington2013aa:
+        abstract: In stochastic sensing, the association and dissociation of analyte
+            molecules is observed as the modulation of an ionic current flowing through
+            a single engineered protein pore, enabling the label-free determination
+            of rate and equilibrium constants with respect to a specific binding site.
+            We engineered sensors based on the staphylococcal α-hemolysin pore to
+            allow the single-molecule detection and characterization of protein kinase-peptide
+            interactions. We enhanced this approach by using site-specific proteolysis
+            to generate pores bearing a single peptide sensor element attached by
+            an N-terminal peptide bond to the trans mouth of the pore. Kinetics and
+            affinities for the Pim protein kinases (Pim-1, Pim-2, and Pim-3) and cAMP-dependent
+            protein kinase were measured and found to be independent of membrane potential
+            and in good agreement with previously reported data. Kinase binding exhibited
+            a distinct current noise behavior that forms a basis for analyte discrimination.
+            Finally, we observed unusually high association rate constants for the
+            interaction of Pim kinases with their consensus substrate Pimtide (~10(7)
+            to 10(8) M(-1) · s(-1)), the result of electrostatic enhancement, and
+            propose a cellular role for this phenomenon.
+        author:
+        -   first: Leon
+            last: Harrington
+        -   first: Stephen
+            last: Cheley
+        -   first: Leila
+            last: Alexander
+            middle: T
+        -   first: Stefan
+            last: Knapp
+        -   first: Hagan
+            last: Bayley
+        bdsk-url-1: http://dx.doi.org/10.1073/pnas.1312739110
+        date-added: 2015-10-24 17:13:25 +0000
+        date-modified: 2015-11-01 21:21:51 +0000
+        doi: 10.1073/pnas.1312739110
+        journal: Proc Natl Acad Sci U S A
+        journal-full: Proceedings of the National Academy of Sciences of the United
+            States of America
+        keywords: Coulombic interaction; phosphorylation; single-molecule sensor;
+            substrate binding kinetics
+        mesh: Bacterial Toxins; Hemolysin Proteins; Kinetics; Peptides; Protein Binding;
+            Protein Engineering; Proteolysis; Proto-Oncogene Proteins c-pim-1; Signal
+            Transduction; Static Electricity; Stochastic Processes
+        month: Nov
+        number: '47'
+        pages: E4417-26
+        pmc: PMC3839778
+        pmid: '24194548'
+        pst: ppublish
+        title: Stochastic detection of Pim protein kinases reveals electrostatically
+            enhanced association of a peptide substrate
+        type: article
+        volume: '110'
+        year: '2013'
+    harrington2015aa:
+        abstract: Protein kinases are critical therapeutic targets. Pim kinases are
+            implicated in several leukaemias and cancers. Here, we exploit a protein
+            nanopore sensor for Pim kinases that bears a pseudosubstrate peptide attached
+            by an enhanced engineering approach. Analyte binding to the sensor peptide
+            is measured through observation of the modulation of ionic current through
+            a single nanopore. We observed synergistic binding of MgATP and kinase
+            to the sensor, which was used to develop a superior method to evaluate
+            Pim kinase inhibitors featuring label-free determination of inhibition
+            constants. The procedure circumvents many sources of bias or false-positives
+            inherent in current assays. For example, we identified a potent inhibitor
+            missed by differential scanning fluorimetry. The approach is also amenable
+            to implementation on high throughput chips.
+        author:
+        -   first: Leon
+            last: Harrington
+        -   first: Leila
+            last: Alexander
+            middle: T
+        -   first: Stefan
+            last: Knapp
+        -   first: Hagan
+            last: Bayley
+        bdsk-url-1: http://dx.doi.org/10.1002/anie.201503141
+        date-added: 2015-10-24 17:13:25 +0000
+        date-modified: 2015-11-01 21:21:45 +0000
+        doi: 10.1002/anie.201503141
+        journal: Angew Chem Int Ed Engl
+        journal-full: Angewandte Chemie (International ed. in English)
+        keywords: drug discovery; inhibitors; protein kinases; screening; single-molecule
+            studies
+        month: Jul
+        number: '28'
+        pages: 8154-9
+        pmid: '26058458'
+        pst: ppublish
+        title: Pim Kinase Inhibitors Evaluated with a Single-Molecule Engineered Nanopore
+            Sensor
+        type: article
+        volume: '54'
+        year: '2015'
+    kong2013aa:
+        abstract: Capsular polysaccharides form the outermost protective layer around
+            many Gram-negative bacteria. Antibiotics aimed directly at weakening this
+            layer are not yet available. In pathogenic Escherichia coli E69, a protein,
+            Wza, forms a pore in the outer membrane that transports K30 capsular polysaccharide
+            from its site of synthesis to the outside of the cell. This therefore
+            represents a prospective antibiotic target. Here we test a variety of
+            grommet-like mimics of K30 capsular polysaccharide on wild-type Wza and
+            on mutant open forms of the pore by electrical recording in planar lipid
+            bilayers. The most effective glycomimetic was the unnatural cyclic octasaccharide
+            octakis(6-deoxy-6-amino)cyclomaltooctaose (am8γCD), which blocks the α-helix
+            barrel of Wza, a site that is directly accessible from the external medium.
+            This glycomimetic inhibited K30 polysaccharide transport in live E. coli
+            E69. With the protective outer membrane disrupted, the bacteria can be
+            recognized and killed by the human immune system.
+        author:
+        -   first: Lingbing
+            last: Kong
+        -   first: Leon
+            last: Harrington
+        -   first: Qiuhong
+            last: Li
+        -   first: Stephen
+            last: Cheley
+        -   first: Benjamin
+            last: Davis
+            middle: G
+        -   first: Hagan
+            last: Bayley
+        bdsk-url-1: http://dx.doi.org/10.1038/nchem.1695
+        date-added: 2015-10-24 17:13:24 +0000
+        date-modified: 2015-11-01 21:21:51 +0000
+        doi: 10.1038/nchem.1695
+        journal: Nat Chem
+        journal-full: Nature chemistry
+        mesh: Carbohydrate Metabolism; Carrier Proteins; Escherichia coli
+        month: Aug
+        number: '8'
+        pages: 651-9
+        pmid: '23881495'
+        pst: ppublish
+        title: Single-molecule interrogation of a bacterial sugar transporter allows
+            the discovery of an extracellular inhibitor
+        type: article
+        volume: '5'
+        year: '2013'
