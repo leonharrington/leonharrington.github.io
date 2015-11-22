@@ -8,6 +8,7 @@ twitter-username: drlharrington
 # Build settings
 markdown: kramdown
 # email:
+permalink: /blog/:year/:month/:day/:title
 
 gems:
     - jekyll-sitemap
