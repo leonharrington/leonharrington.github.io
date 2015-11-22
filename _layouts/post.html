@@ -5,11 +5,14 @@ layout: default
 
   <header class="post-header">
     <h2 class="post-title">{{ page.title }}</h2>
-    <p class="post-meta">{{ page.date | date: "%-d %B %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{{ page.date | date: "%-d %B %Y" }}</p>
+    {% if page.comments %}<a href="{{ site.url }}{{ page.url }}/#disqus_thread" data-disqus-identifier="{{ page.id }}" class="comment_count"></a>{% endif %}
   </header>
 
   <article class="post-content">
     {{ content }}
+      
+    {% include comments.html %}
   </article>
     
 <div class="blog-nav">
