@@ -433,6 +433,14 @@ div.abstract {
     display: none;
 }
 
+div.bio {
+    padding: 0.5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0 0 0.5em 0;
+    background: ghostwhite;
+}
+
 nav.front-nav {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.125em;
