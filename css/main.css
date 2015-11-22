@@ -280,6 +280,13 @@ a.abs_tog {
     
 }
 
+a.comment_count {
+    font-size: 0.875em;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: crimson;
+    font-weight: 300;
+}
+
 ul.post-list {
     list-style: none outside none;
     margin: 0 0 0 0;
@@ -441,6 +448,10 @@ div.bio {
     background: ghostwhite;
 }
 
+div#disqus_thread {
+    margin: 1em 0 1em 0;
+}
+
 nav.front-nav {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.125em;
@@ -471,7 +482,7 @@ nav.front-nav {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 0.9375em;
-    margin: 0 0 0.5em 0;
+    margin: 0 0 0 0;
     text-align: right;
 }
 

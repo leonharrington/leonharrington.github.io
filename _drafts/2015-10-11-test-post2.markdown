@@ -3,6 +3,7 @@ layout: post
 title:  "Second test post for formatting with a very long name too"
 date:   2015-10-11 09:30:00
 categories: test
+comments: true
 ---
 This is another post with some fine discombobulation to test the formatting of my recent posts section, and the formatting thereof. Blah and so forth and other words of no meaning are written to fill space and show that the formatting works as planned, where it is truncated to thirty words at present to avoid rambling crap all over the fucking place.
 
