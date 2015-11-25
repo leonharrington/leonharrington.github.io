@@ -50,7 +50,7 @@ header.post-header {
 footer.site-footer {
     max-width: 850px;
     margin: 1em auto 0 auto;
-    padding: 0.5em 0 0.5em 0;
+    padding: 0.5em 0 1em 0;
 }
 
 article.post-content {
@@ -215,25 +215,29 @@ blockquote {
 
 a {
     text-decoration: none;
-    color:black;
+    color:dimgray;
 }
 
 a.mast-link {
+    color: black;
     display: block;
 }
 
 .post-link {
+    color: black;
     margin: 0;
     line-height: 1.0;
 }
 
 a:hover {
+    color: black;
     text-decoration: underline;
     text-decoration-color: crimson;
     -webkit-text-decoration-color: crimson;
 }
 
 a.front-title {
+    color: black;
     display:block;
     font-size: 2.25em;
     /* text-transform:uppercase; */
@@ -247,6 +251,7 @@ a.front-title:hover {
 }
 
 a.site-title {
+    color: black;
     font-variant: small-caps;
     font-size: 1.5em;
     letter-spacing: 0.1em;
@@ -254,21 +259,25 @@ a.site-title {
 }
 
 a.nav-link {
+    color: black;
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     display:inline-block;
 }
 
 a.read-more {
+    color: black;
     font-size: 0.875em;
     text-transform: uppercase;
 }
 
 a.contact {
+    color: black;
     display: inline-block;
 }
 
 a.blog-nav {
+    color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.875em;
     text-transform: uppercase;
@@ -352,6 +361,7 @@ div.list-head {
     width: 22%;
     text-align: right;
     border-top: 2px solid black;
+    margin-bottom: 1em;
 }
 
 div.post-excerpt {
