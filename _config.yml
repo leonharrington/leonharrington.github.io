@@ -7,7 +7,7 @@ url: "http://www.leonharrington.com" # the base hostname & protocol for your sit
 twitter-username: drlharrington
 # Build settings
 markdown: kramdown
-# email:
+email: info@leonharrington.com
 permalink: /blog/:year/:month/:day/:title
 
 gems:
