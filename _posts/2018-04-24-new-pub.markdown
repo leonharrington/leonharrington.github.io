@@ -1,0 +1,17 @@
+---
+layout: post
+title: "New publication"
+date: 2018-04-24 21:00:00
+comments: true
+---
+Our new publication is out in [Philosophical Transactions of the Royal Society of London B, Biological Sciences](https://dx.doi.org/10.1098/rstb.2017.0104).
+
+It's part of a special issue on self-organisation in cell biology, which is worth a read in [its entirety](http://rstb.royalsocietypublishing.org/content/373/1747).
+
+{% include figure.html img="phil-trans-cover.png" caption="Theme issue ‘Self-organization in cell biology’ compiled and edited by Timo Betz and Roland Wedlich-Söldner" url="http://rstb.royalsocietypublishing.org/content/373/1747" title="Journal cover of the theme issue 'Self-organization in cell biology'" %}
+
+In our contribution to the issue we describe two different engineering strategies for understanding protein pattern formation from the perspective of the most studied model system, MinCDE. We start by describing some new experimental data that exemplify a conventional reverse engineering strategy based on in vitro reconstitution.
+
+The rest of the paper then introduces the concept of forward engineering---testing hypotheses by building experimental models. This approach is perhaps most common in physics, where it is common to construct (often highly elaborate and costly!) experiments to test theories. In biology however, it has only recently begun to be adopted by the pioneering groups in synthetic biology. Due to the 'fuzziness' of biology, it's still very difficult to do, but the benefits are clear.
+
+We consider how such an approach could help us understand protein pattern formation better, and argue that tackling such problems from both directions, whereby reverse and forward engineering feed into each other in a virtuous cycle, is the most efficient way to gain further insight.
