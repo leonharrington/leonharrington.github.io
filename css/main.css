@@ -687,3 +687,140 @@ nav.front-nav {
     padding-top: 1em;
     padding-bottom: 2em;
 }
+
+/* Tablets in portrait mode */
+@media only screen and (max-width: 900px) {
+
+html {
+    font-size: 14pt;
+}    
+    
+footer.site-footer {
+    max-width: 650px;
+}
+    
+div.wrapper {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0;
+}    
+    
+}
+
+
+/* For mobile phones */
+
+@media only screen and (max-width: 675px) {
+    
+html {
+    font-size: 12pt;
+}
+    
+div.wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0;
+}
+    
+div.covers {
+    width: 100%;
+}
+    
+div.biblio {
+    display: inline-block;
+    width: 100%;
+    padding-left: 0;
+}
+    
+h1.page-title {
+    margin: 0 0 0.5em 0;
+}
+
+div.list-head {
+    width: 100%;
+    text-align: left;
+    border-top: 2px solid black;
+    margin-bottom: 0;
+}
+    
+header.post-header {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.5em;
+}    
+
+.post-meta {
+    text-align: left;
+}
+    
+div.post-excerpt {
+    width: 100%;
+    padding-left: 0;
+    text-align: justify;
+}
+
+article.post-content {
+    width: 100%;
+    padding-left: 0%;
+}
+    
+figure {
+    margin: 0 0 1em 0;
+    padding: 0.5em 0 0 0;
+}
+
+figcaption {
+    width: 75%;
+    margin-left: 0;
+}
+   
+div.about-main {
+    width: 100%;
+    display: inline-block;
+    padding-left: 0;
+}
+
+div.about-side {
+    width: 50%;
+}
+    
+h1.page-heading {
+    margin: 0;
+    width: 100%;
+}
+    
+ul.post-list {
+    width: 100%;
+}
+    
+aside {
+    float:right;
+    margin: 0 0 0 0;
+    padding: 0.5em 0 0.5em 1em;
+    width: 33%;
+    text-align: center;
+}
+    
+div.blog-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 -1em 0;
+}
+ 
+div.site-wrapper {
+    display: inline-block;
+}
+    
+.site-header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+} 
+    
+a.nav-link {
+    font-size: 0.875em;
+}    
+
+footer.site-footer {
+    max-width: 300px;
+}
+}
