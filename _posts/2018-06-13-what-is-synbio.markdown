@@ -17,7 +17,9 @@ In a similar fashion, synthetic biologists wished to have biological modules pos
 
 This (slightly old) YouTube video featuring Drew Endy gives, in my opinion, one of the most succinct explanations of synthetic biology.
 
+<div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XIuh7KDRzLk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 As a chemist, I like to draw analogy with how organic chemistry also had its own 'synthetic' revolution. In the early days, once chemistry had moved awaay from the quackery of things such as alchemy, it was much like biology was during the last century. Research was largely a process of cataloguing and characterisation. There was a whole world of fascinating chemistry out there but we had no real way of rationalising or harnessing it.
 
